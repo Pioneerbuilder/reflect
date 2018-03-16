@@ -28,9 +28,7 @@ public class CacheMethodUtil {
         Collections.sort(methodList, new Comparator<Method>() {
             @Override
             public int compare(Method o1, Method o2) {
-                String o1Temp = o1.getName().substring(3);
-                String o2Temp = o2.getName().substring(3);
-                return o1Temp.compareTo(o2Temp);
+                return o1.getName().compareTo(o2.getName());
             }
         });
 

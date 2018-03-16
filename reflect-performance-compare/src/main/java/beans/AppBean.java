@@ -8,15 +8,15 @@ public class AppBean {
 
     private String str;
 
-    private Long aLong;
+    private Long longer;
 
     private AppBean() {
     }
 
-    public AppBean(Integer integer, String str, Long aLong) {
+    public AppBean(Integer integer, String str, Long longer) {
         this.integer = integer;
         this.str = str;
-        this.aLong = aLong;
+        this.longer = longer;
     }
 
     public Integer getInteger() {
@@ -35,11 +35,11 @@ public class AppBean {
         this.str = str;
     }
 
-    public Long getaLong() {
-        return aLong;
+    public Long getLonger() {
+        return longer;
     }
 
-    public void setaLong(Long aLong) {
-        this.aLong = aLong;
+    public void setLonger(Long aLong) {
+        this.longer = aLong;
     }
 }

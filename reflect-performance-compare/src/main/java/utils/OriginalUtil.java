@@ -8,15 +8,15 @@ import java.util.TreeMap;
 /**
  * Created by tangxiaodong on 2018/3/16.
  */
-public class FieldReflectUtil<T> {
+public class OriginalUtil<T> {
 
     private T t;
     private String verifyKey;
 
-    public FieldReflectUtil() {
+    public OriginalUtil() {
     }
 
-    public FieldReflectUtil(T t, String verifyKey) {
+    public OriginalUtil(T t, String verifyKey) {
         this.t = t;
         this.verifyKey = verifyKey;
     }
